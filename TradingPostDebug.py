@@ -1,8 +1,8 @@
-val = 123125
+val = 10
 count = 0
 aa = 0
-a = 1
-b = 0
+a = 4
+b = 1
 c = 0
 d = 0
 e = 0
@@ -35,7 +35,7 @@ if a > 0:
     ay = val % a
     if b == 0:
         aa = 0
-if b > 0:
+if b > 1:
     bx = int(ax / b)
     print('B:',bx)
     by = ax % b
@@ -94,6 +94,15 @@ if val > 0:
     print('D2', dy)
     print('E2', ey)
 
+    print('')
+    print('Total Values: ')
+    print('A', aa)
+    print('B', bx + by)
+    print('C', cx + cy)
+    print('D', dx + dy)
+    print('E', ex + ey)
+
+    print('Count:',count)
     count = count + aa + bx + cx + dx + ex + by + cy + dy + ey
 
     print('')
